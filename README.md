@@ -1,22 +1,8 @@
-# Syntecxhub_chatbot
+# Syntecxhub
 
-# 🤖 AI-Powered Chatbot with Flask & NLTK
+# 🤖 AI-Powered Chatbot with Flask & NLTK (Without using API)
 
 A dynamic, intelligent chatbot built with Flask backend and NLTK for natural language processing. Features a modern, responsive web interface with real-time interactions.
-
-![Chatbot Demo](https://via.placeholder.com/800x400.png?text=Chatbot+Demo+Screenshot)
-
-## 📋 Table of Contents
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage Guide](#usage-guide)
-- [API Documentation](#api-documentation)
-- [Customization](#customization)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
@@ -34,7 +20,6 @@ A dynamic, intelligent chatbot built with Flask backend and NLTK for natural lan
 ### Frontend Features
 - **Modern UI/UX**: Clean, responsive design with gradient themes
 - **Real-time Typing Effect**: Bot messages appear with typewriter animation
-- **Typing Indicators**: Shows when bot is "thinking"
 - **Quick Reply Chips**: Pre-defined questions for easy interaction
 - **Dark/Light Theme**: Toggle between color schemes
 - **Message History**: View and clear conversation history
