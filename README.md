@@ -50,9 +50,3 @@ A dynamic, intelligent chatbot built with Flask backend and NLTK for natural lan
 - pip (Python package manager)
 - Git (optional)
 
-### Step-by-Step Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/ai-chatbot-flask.git
-   cd ai-chatbot-flask
