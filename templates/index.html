@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Rule-Based Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🤖 ChatBot</h2>
+            <p>Your Virtual Assistant</p>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                👋 Hello! I'm AssistBot. How can I help you today?<br>
+                <small>Ask me about store hours, location, services, etc.</small>
+            </div>
+        </div>
+
+        <div class="suggestions" id="suggestions">
+            <span class="suggestion-chip" onclick="sendQuickMessage('What are your hours?')">🕒 Hours</span>
+            <span class="suggestion-chip" onclick="sendQuickMessage('Where are you located?')">📍 Location</span>
+            <span class="suggestion-chip" onclick="sendQuickMessage('What services do you offer?')">🛠️ Services</span>
+            <span class="suggestion-chip" onclick="sendQuickMessage('Contact info')">📞 Contact</span>
+            <span class="suggestion-chip" onclick="sendQuickMessage('Payment methods')">💳 Payment</span>
+            <span class="suggestion-chip" onclick="sendQuickMessage('Help')">❓ Help</span>
+        </div>
+
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="userInput" 
+                   placeholder="Type your message here..." autofocus>
+            <button class="send-button" id="sendButton" onclick="sendMessage()">
+                Send
+            </button>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" onclick="showHistory()">
+                📜 History
+            </button>
+            <button class="control-btn" onclick="clearHistory()">
+                🗑️ Clear History
+            </button>
+            <button class="control-btn" onclick="clearChat()">
+                🔄 New Chat
+            </button>
+            <button class="control-btn" onclick="toggleTheme()">
+                🌓 Theme
+            </button>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
