@@ -5,7 +5,7 @@
 A dynamic, intelligent chatbot built with Flask backend and NLTK for natural language processing. Features a modern, responsive web interface with real-time interactions.
 
 ## ✨ Features
-
+ 
 ### Core Features
 - **Natural Language Understanding**: Uses NLTK for text preprocessing and intent detection
 - **Dynamic Responses**: Context-aware responses with randomized variations
